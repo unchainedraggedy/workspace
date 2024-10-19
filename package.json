@@ -2,7 +2,7 @@
   "name": "defender-game",
   "version": "1.0.0",
   "description": "Browser based game",
-  "entry point": "index.js", 
+  "entry point": "index.js",
   "test command": "",
   "git repository": "https://github.com/unchainedraggedy/workspace.git",
   "keywords": [
@@ -11,13 +11,16 @@
   "author": "Ashura",
   "license": "ISC",
   "scripts": {
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "lint": "eslint ."
   },
-  
   "devDependencies": {
     "@babel/cli": "^7.25.7",
     "@babel/core": "^7.25.8",
-    "@babel/preset-env": "^7.25.8"
+    "@babel/preset-env": "^7.25.8",
+    "@eslint/js": "^9.13.0",
+    "eslint": "^8.57.1",
+    "globals": "^15.11.0"
   },
   "dependencies": {
     "core-js": "^3.38.1"
