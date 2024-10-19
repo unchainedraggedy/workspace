@@ -1,4 +1,15 @@
 {
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "entry point": "index.js", 
+  "test command": "",
+  "git repository": "https://github.com/unchainedraggedy/workspace.git",
+  "keywords": [
+    "game"
+  ],
+  "author": "Ashura",
+  "license": "ISC",
   "scripts": {
     "build": "babel src -d dist"
   },
